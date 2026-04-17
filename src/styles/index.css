@@ -107,7 +107,7 @@
 }
 
 /* Dark Mode */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --text-primary: #f8fafc;
     --text-secondary: #cbd5e1;
@@ -128,7 +128,7 @@
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
   }
-}
+} */
 
 /* ========================================
    RESET & BASE
@@ -425,11 +425,11 @@ p:last-child {
   border-bottom: 1px solid var(--border-light);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .navbar {
     background: rgba(15, 23, 42, 0.8);
   }
-}
+} */
 
 .navbar-inner {
   display: flex;
