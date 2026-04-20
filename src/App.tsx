@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Differentiation from "./components/Differentiation";
 import FinalCTA from "./components/FinalCTA";
 import HeroSection from "./components/HeroSection";
@@ -22,6 +23,7 @@ function App() {
       <Differentiation />
       <LeadMagnet />
       <FinalCTA/>
+      <Contact/>
     </>
   );
 }
