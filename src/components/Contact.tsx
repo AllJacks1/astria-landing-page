@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact">
+    <section id="contact" className="contact">
       <div className="container">
         <div className="contact-wrapper">
           {/* Header */}

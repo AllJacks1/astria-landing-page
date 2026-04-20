@@ -47,7 +47,7 @@ const Differentiation = () => {
   ];
 
   return (
-    <section className="differentiation">
+    <section id='about' className="differentiation">
       <div className="container">
         <div className="differentiation-header">
           <span className="section-label">DIFFERENTIATION</span>

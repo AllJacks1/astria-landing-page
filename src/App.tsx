@@ -1,6 +1,7 @@
 import Contact from "./components/Contact";
 import Differentiation from "./components/Differentiation";
 import FinalCTA from "./components/FinalCTA";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import LeadMagnet from "./components/LeadMagnet";
 import Navbar from "./components/Navigationbar";
@@ -24,6 +25,7 @@ function App() {
       <LeadMagnet />
       <FinalCTA/>
       <Contact/>
+      <Footer/>
     </>
   );
 }
