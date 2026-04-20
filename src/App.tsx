@@ -1,5 +1,6 @@
 import Differentiation from "./components/Differentiation";
 import HeroSection from "./components/HeroSection";
+import LeadMagnet from "./components/LeadMagnet";
 import Navbar from "./components/Navigationbar";
 import ProblemSection from "./components/ProblemSection";
 import HowItWorks from "./components/ProcessSection";
@@ -16,8 +17,9 @@ function App() {
       <ProblemSection />
       <SolutionSection />
       <ServicesSection />
-      <HowItWorks/>
-      <Differentiation/>
+      <HowItWorks />
+      <Differentiation />
+      <LeadMagnet />
     </>
   );
 }
