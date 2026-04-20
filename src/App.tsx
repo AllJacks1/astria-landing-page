@@ -1,3 +1,4 @@
+import Differentiation from "./components/Differentiation";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navigationbar";
 import ProblemSection from "./components/ProblemSection";
@@ -16,6 +17,7 @@ function App() {
       <SolutionSection />
       <ServicesSection />
       <HowItWorks/>
+      <Differentiation/>
     </>
   );
 }
